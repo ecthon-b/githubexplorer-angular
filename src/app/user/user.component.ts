@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-user',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./user.component.sass']
 })
 export class UserComponent implements OnInit {
+
+  faChevronRight = faChevronRight
+  faChevronLeft = faChevronLeft
 
   constructor() { }
 

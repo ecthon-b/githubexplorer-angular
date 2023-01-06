@@ -1,1 +1,39 @@
-<p>user works!</p>
+<div class="container">
+  <header>
+    <img src="../assets/logo.png" alt="logo github explorer">
+    <nav>
+      <a routerLink="/home"><fa-icon [icon]="faChevronLeft"></fa-icon> Home</a>
+    </nav>
+  </header>
+
+  <div class="profile">
+    <img src="https://github.com/ecthon.png" alt="">
+    <div class="profile_data">
+      <h1>ecthon/repo</h1>
+      <p>Descrição do repo</p>
+    </div>
+  </div>
+
+  <div class="git_data_container">
+    <div class="git_info">
+      <span>1808</span>
+      <p>Stars</p>
+    </div>
+    <div class="git_info">
+      <span>48</span>
+      <p>Forks</p>
+    </div>
+    <div class="git_info">
+      <span>76</span>
+      <p>Issues abertas</p>
+    </div>
+  </div>
+
+  <div class="repo_card">
+    <div class="card_repo_info">
+      <h3>Nome-do-repo</h3>
+      <p>Descrição do repo</p>
+    </div>
+    <fa-icon [icon]="faChevronRight"></fa-icon>
+  </div>
+</div>
